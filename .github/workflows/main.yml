@@ -32,7 +32,7 @@ jobs:
       - name: Archive MLflow artifacts locally
         run: |
           mkdir -p saved-artifacts
-          cp -r MLProject/mlruns saved-artifacts/
+          cp -r mlruns saved-artifacts/
       - name: Commit and push changes
         env:
           TOKEN: ${{ secrets.GH_PAT }}  # Your GitHub PAT (set in repo secrets)
