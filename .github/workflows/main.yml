@@ -62,7 +62,7 @@ jobs:
 
       - name: Tag Docker Image
         run: |
-          docker tag cc ${{ secrets.DOCKER_HUB_USERNAME }}/co2-emissions:latest
+          docker tag co2-emissions ${{ secrets.DOCKER_HUB_USERNAME }}/co2-emissions:latest
       - name: Push Docker Image
         run: |
           docker push ${{ secrets.DOCKER_HUB_USERNAME }}/co2-emissions:latest
