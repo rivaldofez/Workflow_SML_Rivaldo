@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/Workflow_SML_Rivaldo/Workflow_SML_Rivaldo/mlruns/0/d3be7a2a46bb4c41a1d2a897e3834dbf/artifacts
+end_time: 1750580446129
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3be7a2a46bb4c41a1d2a897e3834dbf
+run_name: loud-ram-586
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750580434649
+status: 3
+tags: []
+user_id: runner

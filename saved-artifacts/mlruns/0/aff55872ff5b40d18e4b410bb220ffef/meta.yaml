@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/Workflow_SML_Rivaldo/Workflow_SML_Rivaldo/mlruns/0/aff55872ff5b40d18e4b410bb220ffef/artifacts
+end_time: 1750580446129
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aff55872ff5b40d18e4b410bb220ffef
+run_name: capable-finch-803
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750580434649
+status: 3
+tags: []
+user_id: runner
