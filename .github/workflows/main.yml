@@ -33,15 +33,16 @@ jobs:
           cp -r mlruns saved-artifacts/
       - name: Commit and push changes
         env:
-          TOKEN: ${{ secrets.GH_PAT }}  # Your GitHub PAT (set in repo secrets)
+          TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config user.name "Automated Preprocessor"
           git config user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git
+          git fetch origin
           git pull origin main
           git add saved-artifacts/
           git diff --cached --quiet || git commit -m "[AUTO] Add trained model artifacts from CI run"
-          git push
+          git push origin main
       - name: Get latest MLflow run_id
         run: |
           RUN_ID=$(ls -td mlruns/0/*/ | head -n 1 | cut -d'/' -f3)
