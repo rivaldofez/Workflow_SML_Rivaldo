@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/Workflow_SML_Rivaldo/Workflow_SML_Rivaldo/mlruns/0/5b32d68bb16646fa8930f0126c021a1d/artifacts
+end_time: 1750579744328
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5b32d68bb16646fa8930f0126c021a1d
+run_name: marvelous-ant-864
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750579732729
+status: 3
+tags: []
+user_id: runner

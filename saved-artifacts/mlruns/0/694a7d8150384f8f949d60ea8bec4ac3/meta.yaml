@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/Workflow_SML_Rivaldo/Workflow_SML_Rivaldo/mlruns/0/694a7d8150384f8f949d60ea8bec4ac3/artifacts
+end_time: 1750579744328
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 694a7d8150384f8f949d60ea8bec4ac3
+run_name: nosy-turtle-20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750579732729
+status: 3
+tags: []
+user_id: runner

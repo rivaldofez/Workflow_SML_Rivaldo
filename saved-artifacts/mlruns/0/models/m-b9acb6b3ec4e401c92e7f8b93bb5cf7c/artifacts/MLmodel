@@ -1,0 +1,179 @@
+artifact_path: file:///home/runner/work/Workflow_SML_Rivaldo/Workflow_SML_Rivaldo/mlruns/0/models/m-b9acb6b3ec4e401c92e7f8b93bb5cf7c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: m-b9acb6b3ec4e401c92e7f8b93bb5cf7c
+model_size_bytes: 12041976
+model_uuid: m-b9acb6b3ec4e401c92e7f8b93bb5cf7c
+prompts: null
+run_id: 1e34d6f57fc8478f9a0fec51757cef68
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Engine Size(L)", "required": true}, {"type":
+    "double", "name": "Cylinders", "required": true}, {"type": "double", "name": "Fuel
+    Consumption City (L/100 km)", "required": true}, {"type": "double", "name": "Fuel
+    Consumption Hwy (L/100 km)", "required": true}, {"type": "double", "name": "Fuel
+    Consumption Comb (L/100 km)", "required": true}, {"type": "double", "name": "Fuel
+    Consumption Comb (mpg)", "required": true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_COMPACT", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_FULL-SIZE", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_MID-SIZE", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_MINICOMPACT", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_MINIVAN", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_PICKUP TRUCK - SMALL",
+    "required": true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_PICKUP TRUCK - STANDARD",
+    "required": true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_SPECIAL PURPOSE VEHICLE",
+    "required": true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_STATION WAGON - MID-SIZE",
+    "required": true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_STATION WAGON - SMALL",
+    "required": true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_SUBCOMPACT", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_SUV - SMALL", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_SUV - STANDARD",
+    "required": true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_TWO-SEATER", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_VAN - CARGO", "required":
+    true}, {"type": "boolean", "name": "0              COMPACT\n1              COMPACT\n3          SUV
+    - SMALL\n4          SUV - SMALL\n5             MID-SIZE\n             ...      \n7380       SUV
+    - SMALL\n7381       SUV - SMALL\n7382       SUV - SMALL\n7383    SUV - STANDARD\n7384    SUV
+    - STANDARD\nName: Vehicle Class, Length: 6826, dtype: object_VAN - PASSENGER",
+    "required": true}, {"type": "boolean", "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_A10", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_A4", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_A5", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_A6", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_A7", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_A8", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_A9", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AM5", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AM6", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AM7", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AM8", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AM9", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AS10", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AS4", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AS5", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AS6", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AS7", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AS8", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AS9", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AV", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AV10", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AV6", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_AV7", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_AV8", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_M5", "required": true}, {"type": "boolean", "name":
+    "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ... \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName:
+    Transmission, Length: 6826, dtype: object_M6", "required": true}, {"type": "boolean",
+    "name": "0       AS5\n1        M6\n3       AS6\n4       AS6\n5       AS6\n       ...
+    \n7380    AS8\n7381    AS8\n7382    AS8\n7383    AS8\n7384    AS8\nName: Transmission,
+    Length: 6826, dtype: object_M7", "required": true}, {"type": "boolean", "name":
+    "0       Z\n1       Z\n3       Z\n4       Z\n5       Z\n       ..\n7380    Z\n7381    Z\n7382    Z\n7383    Z\n7384    Z\nName:
+    Fuel Type, Length: 6826, dtype: object_D", "required": true}, {"type": "boolean",
+    "name": "0       Z\n1       Z\n3       Z\n4       Z\n5       Z\n       ..\n7380    Z\n7381    Z\n7382    Z\n7383    Z\n7384    Z\nName:
+    Fuel Type, Length: 6826, dtype: object_E", "required": true}, {"type": "boolean",
+    "name": "0       Z\n1       Z\n3       Z\n4       Z\n5       Z\n       ..\n7380    Z\n7381    Z\n7382    Z\n7383    Z\n7384    Z\nName:
+    Fuel Type, Length: 6826, dtype: object_N", "required": true}, {"type": "boolean",
+    "name": "0       Z\n1       Z\n3       Z\n4       Z\n5       Z\n       ..\n7380    Z\n7381    Z\n7382    Z\n7383    Z\n7384    Z\nName:
+    Fuel Type, Length: 6826, dtype: object_X", "required": true}, {"type": "boolean",
+    "name": "0       Z\n1       Z\n3       Z\n4       Z\n5       Z\n       ..\n7380    Z\n7381    Z\n7382    Z\n7383    Z\n7384    Z\nName:
+    Fuel Type, Length: 6826, dtype: object_Z", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-22 08:09:04.969909'
