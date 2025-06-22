@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/Workflow_SML_Rivaldo/Workflow_SML_Rivaldo/mlruns/0/50bf6dba6c5042819eebb42fd14e5db7/artifacts
+end_time: 1750581019168
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50bf6dba6c5042819eebb42fd14e5db7
+run_name: glamorous-zebra-122
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750581008336
+status: 3
+tags: []
+user_id: runner

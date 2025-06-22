@@ -1,0 +1,10 @@
+artifact_location: file:///home/runner/work/Workflow_SML_Rivaldo/Workflow_SML_Rivaldo/mlruns/0/models/m-3edfc0356c554f449859efefa15fe3b1/artifacts
+creation_timestamp: 1750581019768
+experiment_id: '0'
+last_updated_timestamp: 1750581022172
+model_id: m-3edfc0356c554f449859efefa15fe3b1
+model_type: null
+name: model
+source_run_id: abc274e7df3b4a49918dfe11aed71f5c
+status: 2
+status_message: null
